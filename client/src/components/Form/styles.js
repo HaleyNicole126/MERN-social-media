@@ -1,6 +1,6 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { styled } from '@mui/material/styles';
 
-export default makeStyles((theme) => ({
+export default styled((theme) => ({
   root: {
     '& .MuiTextField-root': {
       margin: theme.spacing(1),
